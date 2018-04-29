@@ -7,6 +7,7 @@ import json
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(26, GPIO.IN)
 
+<<<<<<< HEAD
 backlight.rgb(0, 204, 255)
 
 lastSession = {}
@@ -53,3 +54,9 @@ def getCardMenu(MenuOption):
         self.load_options()
     
     def load_options()'''
+=======
+i = 0
+while True:
+    backlight.sweep(i)
+    i += 0.001
+>>>>>>> b0e490be7d042382c86966a133b8910945652aa8
