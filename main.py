@@ -1,7 +1,7 @@
-import dothat as hat
+from dothat import backlight, lcd, touch
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(26, GPIO.IN)
 
-hat.backlight.sweep(0.5)
+backlight.sweep(0.5)
