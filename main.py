@@ -10,11 +10,7 @@ import json
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(26, GPIO.IN)
 
-<<<<<<< HEAD
 backlight.hue(0.8)
-=======
-backlight.rgb(0, 204, 255)
->>>>>>> 724cb87837e2e971872cb6f85c7ce6049964e64c
 
 class CardSession(MenuOption):
     def __init__(self, app, cards, name, cont=False):
